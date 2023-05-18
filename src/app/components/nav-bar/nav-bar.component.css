@@ -1,0 +1,49 @@
+.header {
+    text-align: center;
+    background: #437e93;
+    color: #fff;
+    padding: 12px;
+}
+  
+a {
+    color: #ded8d8;
+}
+
+a:hover { 
+  color: #B1D0E0; 
+}
+
+a:focus {
+  color: white; 
+}
+
+.navbar-custom {
+    background-color: #406882;
+    box-shadow: 0 10px 20px rgba(0,0,0,.9);
+    font-family: "Montserrat-light";
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.navbar-brand {
+  color: white; 
+  font-family: "Verdana";
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5px 5px;
+}
+
+.nav-item {
+  padding: 5px 5px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: "Montserrat-light";
+} 
+
+.badge-custom {
+  background-color: white;
+  color: #406882;
+}

@@ -1,0 +1,85 @@
+img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.form-margin {
+  margin-bottom: 12px;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.cart-item-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 50px;
+}
+
+.number-input {
+  width: 80px;
+  text-align: center;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px; 
+}
+
+.cart-panel {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.payment-panel {
+  align-self: flex-start;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 3px solid hsl(0, 0%, 90%);
+  border-color: #B1D0E0;
+  display: grid;
+  justify-content: center;
+}
+
+.credit-card-warning {
+  color: red;
+}
+
+.btn {
+  background-color: #6998AB;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.btn:hover, active {
+  background-color: #B1D0E0;
+  color: white;
+  border: #B1D0E0;
+}
+
+.cc-info-text {
+  color: gray;
+  margin-top: 0;
+}
+
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-cart-message {
+  margin-top: 64px;
+  color: #406882;
+  margin-bottom: 30px;
+}

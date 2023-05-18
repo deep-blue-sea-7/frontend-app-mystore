@@ -1,0 +1,29 @@
+
+<div class="product-container">
+        <div class="card border-info" style="width: 18rem; padding: 10px; text-align: center;">
+        <a [routerLink]="'products/' + product.id">
+            <img class="card-img-top" [src]="product.imageUrl" [alt]="product.name"> 
+        </a>
+
+        <div class="card-body">
+            <h3>{{ product.name }}</h3>
+            <div>${{ product.price }}</div>
+            <div *ngIf="showDescription">{{ product.description }}</div>
+            <select class="select-input" [(ngModel)]="quantity" name="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+            <div>
+                <button type="button" class="btn text-nowrap" (click)="addProductToCart(product, quantity)">Add to cart</button>
+            </div>
+
+            <div *ngIf="showBackLink">
+                <a [routerLink]="'/'" class="back-link">← Back to product list</a>
+            </div>
+        </div>
+</div>
